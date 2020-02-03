@@ -9,7 +9,7 @@ import sys
 import string
 # Complete the solve function below.
 def solve(s):
-    return string.capwords(s)
+    return string.capwords(s,sep=" ")
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
